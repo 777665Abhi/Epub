@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="2dp"
+  >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+      <ImageView
+        android:id="@+id/ivBook"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/alice_rabbit"
+        />
+    <TextView
+        android:id="@+id/tvBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alice in wonderland "
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/tvBookDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Helllllluyhabuhbhbhuuhqufqf"
+        android:maxLines="2"
+        android:minLines="2"
+        />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
